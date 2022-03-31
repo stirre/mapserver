@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker build -t vincit/mml-mapserver .
+docker build -t stirre/mapserver .
