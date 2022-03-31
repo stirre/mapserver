@@ -12,9 +12,9 @@ VOLUME "/srv/mapserver/data"
 RUN apt-get -y update && apt-get -y --no-install-recommends install \
     apache2 \
     libapache2-mod-wsgi \
-    python-imaging \
-    python-yaml \
-    python-pip \
+    python3-imaging \
+    python3-yaml \
+    python3-pip \
     libproj0 \
     cgi-mapserver
 
