@@ -15,7 +15,7 @@ RUN apt-get -y update && apt-get -y --no-install-recommends install \
     python3-pil \
     python3-yaml \
     python3-pip \
-    libproj0 \
+    libproj15 \
     cgi-mapserver
 
 RUN pip install MapProxy
